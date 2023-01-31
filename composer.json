@@ -1,0 +1,24 @@
+{
+  "name": "projeto/router",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Pablo Oliveira",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\":"src"
+    },
+  "require": {
+    "php": "^7.3",
+    "ext-pdo": "^7.1"
+    }
+  },
+  "require": {
+    "ext-json": "*"
+  }
+}
