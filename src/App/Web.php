@@ -24,7 +24,6 @@ class Web
        return;
     }
 
-
     public function error()
     {
         var_dump('error');
